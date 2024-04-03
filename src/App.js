@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Game from './Game/Game';
 import Lobby from './Game/Lobby';
+import Deck from './Game/Deck';
 import './App.css';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <div>
-      {route === '/' && <Game navigate={navigate} />}
-      {route === '/lobby' && <Lobby navigate={navigate} />}
+      {/* {route === '/' && <Game navigate={navigate} />}
+      {route === '/lobby' && <Lobby navigate={navigate} />} */}
+      <Deck />
     </div>
   );
 }
