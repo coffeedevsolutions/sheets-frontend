@@ -1,0 +1,117 @@
+.playerFormContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    padding: 20px;
+}
+
+.playerForm {
+    align-self: flex-end;
+}
+
+.nameLabel {
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.balanceLabel {
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.playerInput {
+    margin-left: 10px;
+}
+
+.addPlayerButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.addPlayerButton:hover {
+    background-color: #f1f1f1;
+}
+
+.formButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.saveButton {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.closeButton {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.saveButton:hover {
+    background-color: #0056b3;
+}
+
+.playerList {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: flex-start;
+}
+
+.playerName {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.player {
+    text-align: right;
+}
+.playerBalance {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.playerDelete {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.current-player {
+    background-color: #9f9f9f;
+}

@@ -9,7 +9,7 @@
 
 //     // Function to create a new game
 //     const createGame = () => {
-//         axios.post('http://localhost:4444/create')
+//         axios.post('http://localhost:8080/create')
 //             .then(response => {
 //                 // Update access code state
 //                 setAccessCode(response.data);
@@ -26,7 +26,7 @@
   
 //     const accessCode = event.target.elements.accessCode.value;
   
-//     axios.post('http://localhost:4444/join', { accessCode })
+//     axios.post('http://localhost:8080/join', { accessCode })
 //       .then(response => {
 //         setAccessCode(response.data);
 //         setGameCreated(true);
