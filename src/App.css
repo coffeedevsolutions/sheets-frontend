@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.app-container {
+  /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+  background-image: url('/public/green-felt.jpeg');
+
+  /* Cover the entire container */
+  background-size: cover;
+
+  /* Center the image */
+  background-position: left;
+
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+
+  /* Set a minimum height to ensure the image covers the full viewport height */
+  min-height: 100vh;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

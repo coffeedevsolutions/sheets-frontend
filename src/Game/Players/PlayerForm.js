@@ -61,12 +61,14 @@ function PlayerForm({ players, setPlayers, currentPlayerIndex, props }) {
 
         )}
         <div className='playerList'>
-            {players.map((player, index) => (
-                <div className={`player ${players[currentPlayerIndex] && player._id === players[currentPlayerIndex]._id ? 'current-player' : ''}`} key={index}>
-                    <p className='playerName'>{player.name}</p>
-                    <p className='playerBalance'>$ {player.balance}</p>
-                </div>
-            ))}
+        {players.map((player, index) => {
+        return (
+            <div className={`player ${index === currentPlayerIndex ? 'current-player' : ''}`} key={index}>
+            <p className='playerName'>{player.name}</p>
+            <p className='playerBalance'>$ {player.balance}</p>
+            </div>
+        );
+        })}
         </div>
 
         </div>

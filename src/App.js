@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='app-container'>
       {/* {route === '/' && <Game navigate={navigate} />}
       {route === '/lobby' && <Lobby navigate={navigate} />} */}
       <Deck />
